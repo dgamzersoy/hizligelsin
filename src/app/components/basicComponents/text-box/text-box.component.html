@@ -1,0 +1,5 @@
+<input class="{{txtBoxClass}}" [type]="type" 
+[(ngModel)]="value" (change)="onChange($event)" 
+(keyup.enter)="onKeyEnter()" [placeholder]="placeholder"  [ngStyle]="{width:txtBoxWidth}">
+<i *ngIf="type == 'password'" style="margin-left:-30px; cursor:pointer" ><fa-icon [icon]="eyeIcon"></fa-icon></i>
+

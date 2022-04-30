@@ -1,0 +1,6 @@
+<select class="{{selectClass}}" (click)="onClickButton($event)" [ngStyle]="{width:btnWidth}">
+    <option *ngIf="values" selected >{{values[0]}}</option>
+    <option *ngFor="let v of values">
+        {{v}}
+    </option>
+</select>

@@ -1,0 +1,20 @@
+<div class="page-login">
+  <div class="login">
+    <form>
+
+      <div class="text-center">
+        <img class="" src="assets/img/logo.png" alt="">
+      </div>
+
+      <div class="login-inputs">
+        <app-text-box txtBoxClass="login-text-box" type="text" placeholder="Kullanıcı adı" [(value)]="userName"></app-text-box>
+        <app-text-box txtBoxClass="login-text-box" type="password" placeholder="*********" [(value)]="password"></app-text-box>
+        <app-button btnClass="login-button" btnText="Giriş" (onClick)="login()" btnWidth="40%"></app-button>
+      </div>
+      
+    </form>
+    <div class="forget-password">
+      <a href="#">Şifremi Unuttum </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+<div class="page">
+    <div class="container">
+        <div class="row">
+            <div class="page-logo">
+                <img class="logo" src="assets/img/logoo.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pageFirstBorder">
+                    <div class="pageImgAdd"> <img class="image-detail" src="{{image}}"> </div>
+                    <app-button btnClass="imgAddButton" btnText="Resim Ekle" width=""></app-button>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="pageSecBorder">
+                    <label class="add-label">Ürün Adı</label>
+                    <app-text-box txtBoxClass="add-textBox" type="text" [(value)]="title"></app-text-box>
+                    <label class="add-label">Kategori</label>
+                    <app-select-box selectClass="add-textBox"></app-select-box>
+                    <label class="add-label">Açıklama</label>
+                    <textarea class="add-description">{{description}}</textarea>
+
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pageThirdBorder">
+                    <label class="add-label">Fiyat</label>
+                    <app-text-box txtBoxClass="add-textBox" type="text" [(value)]="price"></app-text-box>
+                    <label class="add-label">Stok</label>
+                    <app-text-box txtBoxClass="add-textBox" type="text" [(value)]="stock"></app-text-box>
+                    <button id="deleteButton" type="button" value="Submit">İptal</button>
+                    <button id="submitButton" type="button" value="Submit">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

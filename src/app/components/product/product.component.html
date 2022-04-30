@@ -1,0 +1,53 @@
+  
+  <div class="page">
+  
+  
+    <div class="page-logo">
+      <img class="logo" src="assets/img/logoo.png" alt="">  
+    </div>
+  
+    <div class="table-header">
+      <label class="table-title">Ürün Listesi</label>
+      
+      <app-button btnClass="btn btn-primary" btnText="Ürün Ekle" (onClick)="onClickButton($event)"></app-button>
+    </div>
+  <div class="table-responsive">
+    <table class="table table-bordered border-dark">
+      <thead>
+        <tr>
+          <th scope="col">Resim</th>
+          <th scope="col">Ürün Adı</th>
+          <th scope="col">Ürün Açıklaması</th>
+          <th scope="col">Fiyat</th>
+          <th scope="col">Detay</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td><img class="image-list" src= "{{product.image}}"></td>
+          <td>{{product.title}}</td>
+          <td>{{product.description}}</td>
+          <td>{{product.price}}</td>
+          <td><fa-icon [icon]="arrowIcon" (click)="navigateDetailPage(product.id)"></fa-icon></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    <nav aria-label="Page navigation example mr-2">
+      <ul class="pagination justify-content-end">
+        <li class="page-item ">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>

@@ -1,1 +1,210 @@
-/* You can add global styles to this file, and also import other style files */
+@media only screen and (max-width: 600px) {
+    .page {
+        padding-right: 2.4% !important;
+        padding-left: 2.4% !important;
+    }
+
+    .page-login{
+        padding-right: 2.4% !important;
+        padding-left: 2.4% !important;
+    }
+}
+
+button{
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%)
+}
+
+a{
+    text-decoration: none;
+    color:#D6D6D6;
+    text-align: center;
+}
+
+.page {
+    width: 100%;
+    padding-top: 2.407%;
+    padding-right: 19.53125%;
+    padding-left: 19.53125%;
+}
+
+.page-login {
+    width: 100%;
+    padding-top: 22.225%;
+    padding-right: 34.375%;
+    padding-left: 34.375%;
+}
+
+.login {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+.login:hover{
+    border-color:#2680EB;
+}
+
+.login-inputs{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.login-button{
+    border: 1px solid #F99600;
+    float:right;
+    border-radius: 10px;
+    background-color: #F99600;
+    color: white;
+}
+
+.login-button:hover{
+    border-color:#2680EB;
+}
+
+.forget-password{
+    padding-bottom: 20px;
+    margin-top: 85px;
+    margin-left: 165px;
+}
+
+.page-logo {
+    margin-bottom: 76px;
+}
+
+.logo {
+    height: 96px;
+    width: 193px;
+}
+
+.login-text-box{
+    border: 1px solid white;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.login-text-box:hover{
+    border-color:#2680EB;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.table-title {
+    font-size: 24pt;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+}
+
+
+
+
+.pageImgAdd{
+    width:260px;
+    height:260px;
+    border-radius: 40px;
+    border:1px solid #D8D8D8;
+}
+
+.pageFirstBorder{
+    width:260px;
+    height:260px;
+    margin-right: 50px;
+}
+
+.pageSecBorder{
+    width:470px;
+}
+
+.pageThirdBorder{
+    width:260px;
+    height:260px;
+    margin-left:150px;
+    
+}
+
+
+.imgAddButton{
+    height:50px;
+    background-color: #F99600;
+    border:none;
+    border-radius: 10px ;
+    margin-top:2rem;
+    color:white;
+    font-weight: bold;
+    margin-right:100px;
+}
+
+.add-label {
+    font-size: 16pt;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+}
+
+.add-textBox{
+    border: 1px solid white;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 60px;
+}
+
+.add-description{
+    width:195%;
+    height:160px;
+    margin-top:20px;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 2px 2px rgba(203, 199, 199, 0.915);
+}
+
+.image-detail{
+    width: 132.59px;
+    height: 189.6px;
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+.image-list{
+    width: 32px;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+#deleteButton{
+    width:135px;
+    height:40px;
+    border-radius: 10px ;
+    margin-top:297px;
+    background-color: #F92200;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(203, 199, 199, 0.915);
+    color:white;
+    font-weight: bold;
+    
+}
+
+
+#submitButton{
+    width:106px;
+    height:40px;
+    border-radius: 10px ;
+    margin-top:127px;
+    background-color:#F99600;
+    border: none;
+    color:white;
+    font-weight: bold;
+}
